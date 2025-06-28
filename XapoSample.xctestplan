@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "789CC46E-C0BF-490C-B8CB-99F2752A8F2C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XapoSample.xcodeproj",
+      "identifier" : "78D3BEB42B2878350006C9A3",
+      "name" : "XapoSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XapoSample.xcodeproj",
+        "identifier" : "78D3BEC42B2878370006C9A3",
+        "name" : "XapoSampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:XapoSample.xcodeproj",
+        "identifier" : "785F51F22B38838C003071A7",
+        "name" : "DataTests"
+      }
+    }
+  ],
+  "version" : 1
+}
